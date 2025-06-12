@@ -1,5 +1,7 @@
+flask
 fastapi
 uvicorn
 beautifulsoup4
+requests
 lxml
 gunicorn
