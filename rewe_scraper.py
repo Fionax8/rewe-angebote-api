@@ -56,10 +56,9 @@ def fetch_offers():
     return data
 
 def save_to_json(data):
-    filename = f"rewe_angebote_{datetime.today().strftime('%Y-%m-%d')}.json"
-    with open(filename, "w", encoding="utf-8") as f:
+    with open("offers.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-    print(f"✅ Daten gespeichert unter: {filename}")
+    print("✅ Daten gespeichert unter: offers.json")
 
 if __name__ == "__main__":
     offers = fetch_offers()
