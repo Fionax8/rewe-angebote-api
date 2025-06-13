@@ -39,6 +39,10 @@ def get_offers():
         print(f"❌ Ein unerwarteter Fehler ist beim Abrufen der Angebote aufgetreten: {e}")
         return jsonify({"error": "Interner Serverfehler beim Laden der Angebote."}), 500
 
+    if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 10000))  # 10000 statt 5000 oder hardcoded
+    app.run(host="0.0.0.0", port=port)
+    
 # Wenn Gunicorn verwendet wird, ist KEIN app.run() hier erforderlich.
 # Gunicorn kümmert sich um das Starten der Anwendung.
 # Die Flask-Anwendung 'app' wird direkt von Gunicorn importiert und ausgeführt.
