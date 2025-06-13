@@ -2,7 +2,6 @@ services:
   - type: web
     name: rewe-angebote-api
     runtime: python
-    buildCommand: ""
     startCommand: "python main.py"
     envVars:
       - key: PYTHON_VERSION
