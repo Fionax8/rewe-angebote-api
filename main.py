@@ -40,7 +40,7 @@ def get_offers():
         return jsonify({"error": "Interner Serverfehler beim Laden der Angebote."}), 500
 
     if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 10000))  # 10000 statt 5000 oder hardcoded
+    port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port)
     
 # Wenn Gunicorn verwendet wird, ist KEIN app.run() hier erforderlich.
