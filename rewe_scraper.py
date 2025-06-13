@@ -1,61 +1,57 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+from datetime import datetime
 
-BASE_URL = "https://www.rewe.de/angebote/nationale-angebote/"
+URL = "https://www.rewe.de/angebote/nationale-angebote/"
 HEADERS = {
     "User-Agent": "Mozilla/5.0"
 }
 
-def fetch_offer_period(soup: BeautifulSoup) -> str:
-    headline = soup.find("div", string=lambda text: text and "Diese Woche" in text)
-    if headline:
-        next_date = headline.find_next(string=lambda text: text and "bis" in text)
-        if next_date:
-            return next_date.strip()
-    return "Zeitraum nicht gefunden"
-
 def fetch_offers():
-    response = requests.get(BASE_URL, headers=HEADERS)
-    soup = BeautifulSoup(response.text, 'html.parser')
-
-    angebot_zeitraum = fetch_offer_period(soup)
+    response = requests.get(URL, headers=HEADERS)
+    response.raise_for_status()
+    soup = BeautifulSoup(response.text, "html.parser")
 
     data = {
-        "angebotszeitraum": angebot_zeitraum,
         "angebote": {}
     }
 
-    current_category = None
-    all_sections = soup.find_all(['h2', 'div'], class_=lambda x: x and ("category-section" in x or "product-tile" in x))
+    categories = soup.find_all("section", class_="sos-category")
 
-    for section in all_sections:
-        if section.name == 'h2':
-            current_category = section.get_text(strip=True)
-            data["angebote"][current_category] = []
-        elif section.name == 'div' and "product-tile" in section.get("class", []):
-            title = section.find("span", class_="product-tile-title")
-            price = section.find("div", class_="product-tile-price")
-            image = section.find("img")
-            link = section.find("a", href=True)
+    for category in categories:
+        # Kategorie-Titel (z. B. "Top-Angebote")
+        header = category.find("h2")
+        category_title = header.get_text(strip=True) if header else "Unbekannte Kategorie"
+        data["angebote"][category_title] = []
+
+        # Alle Produktangebote in dieser Kategorie
+        offers = category.find_all("div", class_="sos-offer")
+
+        for offer in offers:
+            title_tag = offer.find("h3")
+            title = title_tag.get_text(strip=True) if title_tag else "Kein Titel"
+
+            price_tag = offer.find("div", class_="sos-offer__skeleton-footer-price-value")
+            price = price_tag.get_text(strip=True) if price_tag else "Kein Preis"
+
+            image_tag = offer.find("img")
+            image_url = image_tag.get("data-src", None) if image_tag else None
 
             product = {
-                "title": title.get_text(strip=True) if title else "Kein Titel",
-                "price": price.get_text(strip=True) if price else "Kein Preis",
-                "image": image["src"] if image else None,
-                "link": f"https://www.rewe.de{link['href']}" if link else None
+                "title": title,
+                "price": price,
+                "image": image_url
             }
 
-            if current_category:
-                data["angebote"][current_category].append(product)
+            data["angebote"][category_title].append(product)
 
     return data
 
 def save_to_json(data):
-    filename = "rewe_angebote.json"
-    with open(filename, "w", encoding="utf-8") as f:
+    with open("offers.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-    print(f"✅ Daten gespeichert unter: {filename}")
+    print("✅ JSON-Datei wurde gespeichert: offers.json")
 
 if __name__ == "__main__":
     offers = fetch_offers()
