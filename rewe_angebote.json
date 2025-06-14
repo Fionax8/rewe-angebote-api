@@ -1,27 +1,27 @@
 [
   {
-    "title": "Weihenstephan Haltbare Milch",
+    "title": "Weihenstephan H-Milch",
     "price": "1,19 €",
     "regularPrice": "1,69 €",
     "info": "1,5/3,5% Fett, je 1-l-Pckg",
     "image": "https://img.rewe-static.de/REWE25_2025/0677063/26243805-48_digital-image.png?impolicy=s-offers&imwidth=400",
-    "code": "4008452027589"
+    "barcode": "4008452027589"
   },
   {
-    "title": "Snickers Original Ice Cream",
+    "title": "Snickers Ice Cream",
     "price": "2,22 €",
     "regularPrice": "2,82 €",
     "info": "je 251,5-ml-Pckg | (1 l = 8,83)",
     "image": "https://img.rewe-static.de/KLEIN24_2025/7700736/39052859-127_digital-image.png?impolicy=s-offers&imwidth=200",
-    "code": "5000159548496"
+    "barcode": "5000159548496"
   },
   {
-    "title": "Langnese Cremissimo Haselnuss Vanilla Schokolade",
+    "title": "Langnese Cremissimo Nuss Vanille Schoko",
     "price": "1,88 €",
     "regularPrice": "3,60 €",
     "info": "je 1000-ml-Becher",
     "image": "https://img.rewe-static.de/REWE_DORTMUND25_2025/9899402/48592665-13_digital-image.png?impolicy=s-offers&imwidth=400",
-    "code": "8711327668836"
+    "barcode": "8711327668836"
   },
   {
     "title": "Ehrmann Grand Dessert",
@@ -29,7 +29,7 @@
     "regularPrice": "1,09 €",
     "info": "versch. Sorten, je 190-g-Becher, (1 kg = 2,58)",
     "image": "https://img.rewe-static.de/REWE25_2025/7182494/27436675-28_digital-image.png?impolicy=s-offers&imwidth=400",
-    "code": "4002971234107"
+    "barcode": "4002971234107"
   },
   {
     "title": "Bauer Der Große Bauer",
@@ -37,7 +37,7 @@
     "regularPrice": "0,99 €",
     "info": "Stracciatella | je 225-g-Becher | (1 kg = 2,18)",
     "image": "https://img.rewe-static.de/KLEIN24_2025/9067453/42797172-12_digital-image.png?impolicy=s-offers&imwidth=200",
-    "code": "4002334113247"
+    "barcode": "4002334113247"
   },
   {
     "title": "Auer Vanille Eiswaffeln",
@@ -45,15 +45,15 @@
     "regularPrice": "1,99 €",
     "info": "je 240-g-Pckg, (1 kg = 6,21)",
     "image": "https://img.rewe-static.de/REWE25_2025/9876313/48407843-14_digital-image.png?impolicy=s-offers&imwidth=400",
-    "code": "9001486014209"
+    "barcode": "9001486014209"
   },
   {
-    "title": "Sun Rice Original Choviva",
+    "title": "Sun Rice Orig. Choviva",
     "price": "1,99 €",
     "regularPrice": "2,99 €",
     "info": "je 250-g-Pckg, (1 kg = 8,00)",
     "image": "https://img.rewe-static.de/KLEIN24_2025/9608767/49502819-7_digital-image.png?impolicy=s-offers&imwidth=400",
-    "code": "4008601001019"
+    "barcode": "4008601001019"
   },
   {
     "title": "Bahlsen Comtess Kuchen",
@@ -61,7 +61,7 @@
     "regularPrice": "2,09 €",
     "info": "versch. Sorten, je 350-g-Pckg, (1 kg = 5,11)",
     "image": "https://img.rewe-static.de/REWE_DORTMUND25_2025/1916296/24413785-10_digital-image.png?impolicy=s-offers&imwidth=400",
-    "code": "4017100450518"
+    "barcode": "4017100450518"
   },
   {
     "title": "Aprikosen",
@@ -69,7 +69,7 @@
     "regularPrice": "6,44 €",
     "info": "Kl. I | je 1 kg",
     "image": "https://img.rewe-static.de/KLEIN24_2025/2632900/27078502-5_digital-image.png?impolicy=s-offers&imwidth=200",
-    "code": "kein Barcode vorhanden"
+    "barcode": "kein Barcode vorhanden"
   },
   {
     "title": "Frischer Mais",
@@ -77,6 +77,14 @@
     "regularPrice": "2,99 €",
     "info": "je 2-St.-Pckg",
     "image": "https://img.rewe-static.de/KLEIN24_2025/9911756/27954433-5_digital-image.png?impolicy=s-offers&imwidth=200",
-    "code": "kein Barcode vorhanden"
+    "barcode": "kein Barcode vorhanden"
+  },
+  {
+    "title": "Tafeltrauben",
+    "price": "1,99 €",
+    "regularPrice": "3,99 €",
+    "info": "Kl. I, je 500-g-Schale, (1 kg = 3,98)",
+    "image": "https://img.rewe-static.de/REWE25_2025/0377024/8006870-16_digital-image.png?impolicy=s-offers&imwidth=400",
+    "barcode": "kein Barcode vorhanden"
   }
 ]
