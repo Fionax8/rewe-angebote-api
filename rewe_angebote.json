@@ -23,8 +23,8 @@
   },
   {
     "title": "Golden Toast Vollkorn Toast",
-    "price": "1,50 €",
-    "priceBasis": "3,00 €/kg",
+    "price": "",
+    "priceBasis": "",
     "regularPrice": "1,90 €",
     "regularPriceBasis": "3,80 €/kg",
     "packSize": "500g",
@@ -53,7 +53,18 @@
     "info": "250g | 14,36 €/kg)",
     "image": "https://img.rewe-static.de/3195835/37535537_digital-image.png?imwidth=152&impolicy=kues",
     "barcode": "0048490036130"
-  },   
+  },
+  {
+    "title": "De Cecco Gnocchi Nr. 46",
+    "price": "2,00 €",
+    "priceBasis": "4,00 €/kg",
+    "regularPrice": "2,49 €",
+    "regularPriceBasis": "4,98 €/kg",
+    "packSize": "500g",
+    "info": "500g | 4,98 €/kg",
+    "image": "https://img.rewe-static.de/5273625/1562650_digital-image.png?imwidth=152&impolicy=kues",
+    "barcode": "8001250120465"
+  }, 
   {
     "title": "Bergader Bavaria Blu Der Würzige",
     "price": "2,39 €",
@@ -75,18 +86,7 @@
     "info": "250g | 5,96 €/kg",
     "image": "https://img.rewe-static.de/4758625/23180223_digital-image.png?imwidth=152&impolicy=kues",
     "barcode": "4002676210611"
-  },   
-  {
-    "title": "De Cecco Gnocchi Nr. 46",
-    "price": "2,00 €",
-    "priceBasis": "4,00 €/kg",
-    "regularPrice": "2,49 €",
-    "regularPriceBasis": "4,98 €/kg",
-    "packSize": "500g",
-    "info": "500g | 4,98 €/kg",
-    "image": "https://img.rewe-static.de/5273625/1562650_digital-image.png?imwidth=152&impolicy=kues",
-    "barcode": "8001250120465"
-  },   
+  },     
   {
     "title": "Davert Bio Jasmin-Reis Weiß",
     "price": "2,49 €",
