@@ -1,6 +1,6 @@
 [
   {
-    "title": "Weihenstephan H-Milch",
+    "title": "Weihenstephan H-Milch 1,5%",
     "price": "1,19 €",
     "priceBasis": "1,19 €/l",
     "regularPrice": "1,69 €",
@@ -11,7 +11,7 @@
     "barcode": "4008452027589"
   },
   {
-    "title": "Weihenstephan fettarmer Joghurt mild 1,5 % Fett",
+    "title": "Weihenstephan fettarmer Joghurt mild 1,5%",
     "price": "1,09 €",
     "priceBasis": "2,98 €/kg",
     "regularPrice": "1,69 €",
@@ -55,7 +55,7 @@
     "barcode": "0048490036130"
   },
   {
-    "title": "De Cecco Gnocchi Nr. 46",
+    "title": "De Cecco Gnocchi",
     "price": "2,00 €",
     "priceBasis": "4,00 €/kg",
     "regularPrice": "2,49 €",
