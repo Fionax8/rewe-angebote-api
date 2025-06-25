@@ -1,17 +1,7 @@
 [
   {
-    "title": "Weihenstephan H-Milch 3,5%",
-    "price": "",
-    "priceBasis": "",
-    "regularPrice": "1,09 €",
-    "regularPriceBasis": "2,18 €/l",
-    "packSize": "0,5l",
-    "info": "",
-    "image": "https://img.rewe-static.de/2374151/24050524_digital-image.png?imwidth=152&impolicy=search",
-    "barcode": "4008452033986"
-  },  
-  {
-    "title": "Weihenstephan H-Milch 1,5%",
+    "title": "H-Milch 1,5%",
+    "brands": "Weihenstephan",
     "price": "1,19 €",
     "priceBasis": "1,19 €/l",
     "regularPrice": "1,69 €",
@@ -22,7 +12,8 @@
     "barcode": "4008452027589"
   },
   {
-    "title": "Weihenstephan fettarmer Joghurt mild 1,5%",
+    "title": "Joghurt mild 1,5%",
+    "brands": "Weihenstephan",
     "price": "1,09 €",
     "priceBasis": "2,98 €/kg",
     "regularPrice": "1,69 €",
@@ -33,9 +24,10 @@
     "barcode": "4008452031067"
   },
   {
-    "title": "Golden Toast Vollkorn Toast",
-    "price": "",
-    "priceBasis": "",
+    "title": "Toast Vollkorn",
+    "brands": "Golden Toast",
+    "price": "1,50 €",
+    "priceBasis": "3,00 €/kg",
     "regularPrice": "1,90 €",
     "regularPriceBasis": "3,80 €/kg",
     "packSize": "500g",
@@ -45,6 +37,7 @@
   },
   {
     "title": "Philadelphia Natur Balance",
+    "brands": "Philadelphia",
     "price": "",
     "priceBasis": "",
     "regularPrice": "2,19 €",
@@ -55,7 +48,8 @@
     "barcode": "7622300318147"
   },   
   {
-    "title": "Weihenstephan Die Streichzarte ungesalzen",
+    "title": "Die Streichzarte ungesalzen",
+    "brands": "Weihenstephan",
     "price": "",
     "priceBasis": "",
     "regularPrice": "3,59",
@@ -64,20 +58,10 @@
     "info": "250g | 14,36 €/kg)",
     "image": "https://img.rewe-static.de/3195835/37535537_digital-image.png?imwidth=152&impolicy=kues",
     "barcode": "0048490036130"
-  },
+  },   
   {
-    "title": "De Cecco Gnocchi",
-    "price": "2,00 €",
-    "priceBasis": "4,00 €/kg",
-    "regularPrice": "2,49 €",
-    "regularPriceBasis": "4,98 €/kg",
-    "packSize": "500g",
-    "info": "500g | 4,98 €/kg",
-    "image": "https://img.rewe-static.de/5273625/1562650_digital-image.png?imwidth=152&impolicy=kues",
-    "barcode": "8001250120465"
-  }, 
-  {
-    "title": "Bergader Bavaria Blu Der Würzige",
+    "title": "Bavaria Blu Der Würzige",
+    "brands": "Bergader",
     "price": "2,39 €",
     "priceBasis": "9,56 €/kg",
     "regularPrice": "3,39 €",
@@ -88,7 +72,8 @@
     "barcode": "4006402020413"
   },   
   {
-    "title": "Birkel Muscheln",
+    "title": "Muscheln",
+    "brands": "Birkel",
     "price": "",
     "priceBasis": "",
     "regularPrice": "1,49 €",
@@ -97,9 +82,22 @@
     "info": "250g | 5,96 €/kg",
     "image": "https://img.rewe-static.de/4758625/23180223_digital-image.png?imwidth=152&impolicy=kues",
     "barcode": "4002676210611"
-  },     
+  },   
   {
-    "title": "Davert Bio Jasmin-Reis Weiß",
+    "title": "Gnocchi Nr. 46",
+    "brands": "De Cecco",
+    "price": "2,00 €",
+    "priceBasis": "4,00 €/kg",
+    "regularPrice": "2,49 €",
+    "regularPriceBasis": "4,98 €/kg",
+    "packSize": "500g",
+    "info": "500g | 4,98 €/kg",
+    "image": "https://img.rewe-static.de/5273625/1562650_digital-image.png?imwidth=152&impolicy=kues",
+    "barcode": "8001250120465"
+  },   
+  {
+    "title": "Bio Jasmin-Reis Weiß",
+    "brands": "Davert",
     "price": "2,49 €",
     "priceBasis": "4,98 €/kg",
     "regularPrice": "3,29 €",
@@ -110,7 +108,8 @@
     "barcode": "4019339233122"
   },   
   {
-    "title": "ALB-GOLD Bio Mie-Nudeln mit Ei",
+    "title": "Bio Mie-Nudeln mit Ei",
+    "brands": "ALB-GOLD",
     "price": "1,45 €",
     "priceBasis": "5,80 €/kg",
     "regularPrice": "2,09 €",
@@ -122,6 +121,7 @@
   },      
   {
     "title": "Snickers Ice Cream",
+    "brands": "",
     "price": "2,22 €",
     "priceBasis": "8,88 €/l",
     "regularPrice": "2,82 €",
@@ -132,7 +132,8 @@
     "barcode": "5000159548496"
   },
   {
-    "title": "Langnese Cremissimo Nuss Vanille Schoko",
+    "title": "Cremissimo Nuss Vanille Schoko",
+    "brands": "Langnese",
     "price": "1,88 €",
     "priceBasis": "1,88 €/l",
     "regularPrice": "3,69 €",
@@ -143,7 +144,8 @@
     "barcode": "8711327668836"
   },
   {
-    "title": "Ehrmann Grand Dessert",
+    "title": "Grand Dessert",
+    "brands": "Ehrmann",
     "price": "0,49 €",
     "priceBasis": "2,58 €/kg",
     "regularPrice": "1,09 €",
@@ -154,7 +156,8 @@
     "barcode": "4002971234107"
   },
   {
-    "title": "Bauer Der Große Bauer",
+    "title": " Dr Große Bauer",
+    "brands": "Bauer",
     "price": "0,49 €",
     "priceBasis": "2,18 €/kg",
     "regularPrice": "0,99 €",
@@ -165,7 +168,8 @@
     "barcode": "4002334113247"
   },
   {
-    "title": "Auer Vanille Eiswaffeln",
+    "title": "Vanille Eiswaffeln",
+    "brands": "Auer",
     "price": "1,49 €",
     "priceBasis": "6,21 €/kg",
     "regularPrice": "1,99 €",
@@ -176,7 +180,8 @@
     "barcode": "9001486014209"
   },
   {
-    "title": "Sun Rice Orig. Choviva",
+    "title": "Original Choviva",
+    "brands": "Sun Rice",
     "price": "2,00 €",
     "priceBasis": "8,00 €/kg",
     "regularPrice": "2,99 €",
@@ -187,7 +192,8 @@
     "barcode": "4008601001019"
   },
   {
-    "title": "Bahlsen Comtess Kuchen",
+    "title": "Kuchen Comtess",
+    "brands": "Bahlsen",
     "price": "1,69 €",
     "priceBasis": "5,11 €/kg",
     "regularPrice": "2,09 €",
@@ -199,6 +205,7 @@
   },
   {
     "title": "Aprikosen",
+    "brands": "",
     "price": "4,44 €",
     "priceBasis": "4,44 €/kg",
     "regularPrice": "6,44 €",
@@ -210,6 +217,7 @@
   },
   {
     "title": "Frischer Mais",
+    "brands": "",
     "price": "1,99 €",
     "priceBasis": "",
     "regularPrice": "2,99 €",
@@ -221,6 +229,7 @@
   },
   {
     "title": "Tafeltrauben",
+    "brands": "",
     "price": "1,99 €",
     "priceBasis": "3,98 €/kg",
     "regularPrice": "4,00 €",
